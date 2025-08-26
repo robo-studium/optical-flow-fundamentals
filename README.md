@@ -1,11 +1,23 @@
 # オプティカルフローの基礎
-- Pyramidal Lucas-kanade法とFarneback法
-- sparse vs dense
-- 特定の点 vs すべての点
-  
-https://en.wikipedia.org/wiki/Pyramid_(image_processing)
 
-## Pyramidal Lucas-kanade法
-10個の特徴点に対してトラッキング  
+`Pyramidal Lucas-kanade法` vs `Farneback法`
+| 手法   | Lucas-Kanade (Pyramidal) | Farneback   |
+| ---- | ------------------------ | ----------- |
+| 基本   | 特徴点を追跡                   | 画像全体のフロー    |
+| 出力   | Sparse (まばら)             | Dense (密)   |
+| 計算量  | 軽い                       | 重い          |
+| 精度   | 特徴点付近では高精度               | 全体的にそこそこ  |
+| 典型用途 | トラッキング、SLAM              | 動きの可視化 |
+
+👉 簡単に言うと
+- 「点を追いかけたい」 → Lucas-Kanade
+- 「全部のピクセルの動きを見たい」 → Farneback
+
+## Pyramidal Lucas-kanade法のデモ
+10個の特徴点に対してトラッキングした結果
 
 https://github.com/user-attachments/assets/54503850-672a-4950-9792-15acd2230aac
+
+## Farneback法のデモ
+
+https://github.com/user-attachments/assets/a21b351a-0dbb-4959-a044-97e115821861
