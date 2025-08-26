@@ -3,3 +3,4 @@
 - sparse vs dense
 - 特定の点 vs すべての点
   
+https://en.wikipedia.org/wiki/Pyramid_(image_processing)
