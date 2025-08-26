@@ -19,5 +19,6 @@
 https://github.com/user-attachments/assets/54503850-672a-4950-9792-15acd2230aac
 
 ## Farneback法のデモ
+*流れの向きによって色が変わる
 
 https://github.com/user-attachments/assets/a21b351a-0dbb-4959-a044-97e115821861
